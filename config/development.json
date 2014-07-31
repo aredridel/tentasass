@@ -43,7 +43,8 @@
                         },
                         "css": {
                             "module": "kraken-devtools/plugins/sass",
-                            "files": "/css/**/*.css"
+                            "files": "/css/**/*.css",
+                            "paths": "config:node-neat.includePaths"
                         },
                         "copier": {
                             "module": "kraken-devtools/plugins/copier",
@@ -53,5 +54,7 @@
                 ]
             }
         }
-    }
+    },
+
+    "node-neat": "require:node-neat"
 }
